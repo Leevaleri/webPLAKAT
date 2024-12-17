@@ -1,0 +1,41 @@
+.petwed {
+  animation: stroke 4s linear infinite;
+}
+@keyframes stroke {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.kot1 {
+  animation: perehod 4s steps(1) infinite;
+}
+@keyframes perehod {
+  0% {
+    background-position: 0 0;
+  }
+  12.5% {
+    background-position: -833px 0;
+  }
+  25% {
+    background-position: -1666px 0;
+  }
+  37.5% {
+    background-position: -2499px 0;
+  }
+  50% {
+    background-position: -3332px 0;
+  }
+  62.5% {
+    background-position: -4165px 0;
+  }
+  75% {
+    background-position: -4998px 0;
+  }
+  87.5% {
+    background-position: -5831px 0;
+  }
+}

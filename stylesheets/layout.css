@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+}
+.stroke {
+  background-color: #ffc9e4;
+  height: 7vw;
+  width: 100vw;
+}
+.petwed {
+  height: 5vw;
+  width: 100vw;
+  padding-top: 1vw;
+}
+
+.first {
+  background-color: #001aff;
+  height: 52vw;
+  width: 100vw;
+}
+
+.kot1 {
+  height: 46vw;
+  width: 64vw;
+  background-image: url(../images/pere.svg);
+
+  background-repeat: no-repeat;
+  margin-top: 3vw;
+  margin-left: 2vw;
+}
+
+.first {
+  display: flex;
+}
+.pasli {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
