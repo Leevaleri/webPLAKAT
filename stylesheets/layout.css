@@ -71,6 +71,9 @@ body {
   background-color: #001aff;
   height: 29.4vw;
   width: 60.6vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .text {
@@ -78,6 +81,9 @@ body {
   width: 39.4vw;
   background-image: url(../images/text1.svg);
   background-size: cover;
+  font-family: BalooBhai;
+  color: #ff50c7;
+  font-size: 6.5vw;
 }
 
 .flag1 {
@@ -88,4 +94,80 @@ body {
 .flag2 {
   height: 8vw;
   width: 120vw;
+}
+
+.tort1 {
+  height: 23vw;
+  width: 23vw;
+}
+
+.And {
+  padding-top: 8vw;
+  padding-left: 2.5vw;
+}
+
+.happily {
+  padding-top: 11.5vw;
+  padding-left: 2.5vw;
+}
+
+/* экран 3 */
+
+.tri {
+  width: 100vw;
+  display: flex;
+}
+
+.kot2 {
+  background-color: #ffc9e4;
+  height: 23vw;
+  width: 39.4vw;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lap {
+  background-color: #001aff;
+  width: 39.4vw;
+  height: 10.6vw;
+  overflow: hidden;
+}
+
+.lapki {
+  width: 90vw;
+}
+
+.left {
+  height: 33.6vw;
+  width: 60.6vw;
+  background-image: url(../images/text2.svg);
+  background-size: cover;
+  font-family: BalooBhai;
+  color: #ff50c7;
+  font-size: 6.5vw;
+}
+
+.lived {
+  padding-top: 10vw;
+  padding-left: 29.5vw;
+}
+
+.wedding {
+  padding-top: 6vw;
+  padding-left: 29.5vw;
+}
+
+.kotik {
+  height: 25vw;
+  width: 25vw;
+  opacity: 1;
+}
+
+.nekotik {
+  height: 25vw;
+  width: 25vw;
+  position: absolute;
+  opacity: 0;
 }

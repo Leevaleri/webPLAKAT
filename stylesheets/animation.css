@@ -6,7 +6,7 @@
     transform: translateX(0%);
   }
   100% {
-    transform: translateX(-112%);
+    transform: translateX(-59%);
   }
 }
 
@@ -109,4 +109,40 @@
   100% {
     transform: translateX(0%);
   }
+}
+
+.tort1 {
+  animation: tort1 7s linear infinite;
+}
+
+@keyframes tort1 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* экран 3 */
+
+.lapki {
+  animation: lapki 2s linear infinite;
+}
+@keyframes lapki {
+  0% {
+    transform: translateX(-39%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.nekotik:hover {
+  opacity: 1;
+}
+
+.kotik:hover {
+  opacity: 0;
 }
