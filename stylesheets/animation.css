@@ -18,24 +18,95 @@
     background-position: 0 0;
   }
   12.5% {
-    background-position: -833px 0;
+    background-position: -64vw 0;
   }
   25% {
-    background-position: -1666px 0;
+    background-position: -128vw 0;
   }
   37.5% {
-    background-position: -2499px 0;
+    background-position: -192vw 0;
   }
   50% {
-    background-position: -3332px 0;
+    background-position: -256vw 0;
   }
   62.5% {
-    background-position: -4165px 0;
+    background-position: -320vw 0;
   }
   75% {
-    background-position: -4998px 0;
+    background-position: -384vw 0;
   }
   87.5% {
-    background-position: -5831px 0;
+    background-position: -448vw 0;
+  }
+}
+
+.pas1 {
+  animation: pas1 4s linear infinite;
+}
+@keyframes pas1 {
+  0% {
+    transform: rotate(33deg);
+  }
+  50% {
+    transform: rotate(-33deg);
+  }
+  100% {
+    transform: rotate(33deg);
+  }
+}
+
+.pas2 {
+  animation: pas2 5s linear infinite;
+}
+@keyframes pas2 {
+  0% {
+    transform: rotate(-40deg);
+  }
+  50% {
+    transform: rotate(40deg);
+  }
+  100% {
+    transform: rotate(-40deg);
+  }
+}
+
+.pas3 {
+  animation: pas3 4s linear infinite;
+}
+@keyframes pas3 {
+  0% {
+    transform: rotate(27deg);
+  }
+  50% {
+    transform: rotate(-27deg);
+  }
+  100% {
+    transform: rotate(27deg);
+  }
+}
+
+/* 2экран */
+
+.flag1 {
+  animation: flag1 4s linear infinite;
+}
+@keyframes flag1 {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-47%);
+  }
+}
+
+.flag2 {
+  animation: flag2 4s linear infinite;
+}
+@keyframes flag2 {
+  0% {
+    transform: translateX(-47%);
+  }
+  100% {
+    transform: translateX(0%);
   }
 }

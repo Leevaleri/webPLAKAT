@@ -4,6 +4,9 @@
 body {
   width: 100vw;
 }
+
+/* экран1 */
+
 .stroke {
   background-color: #ffc9e4;
   height: 7vw;
@@ -18,39 +21,71 @@ body {
 
 .first {
   background-color: #001aff;
-  height: 52vw;
+  padding: 2vw 0 4vw 4vw;
   width: 100vw;
+  position: relative;
 }
 
 .kot1 {
   height: 46vw;
   width: 64vw;
   background-image: url(../images/pere.svg);
-
+  background-size: 512vw 46vw;
   background-repeat: no-repeat;
-  margin-top: 3vw;
-  margin-left: 2vw;
 }
-
-.first {
-  display: flex;
-}
-.pasli1 {
-  width: 11vw;
-  height: 44vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-.pasli2 {
-  width: 21vw;
-  height: 44vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+.first img {
+  position: absolute;
 }
 .pas1 {
-  padding: 0 0 0 0;
+  width: 27vw;
+  top: 0vw;
+  left: 57vw;
+}
+.pas2 {
+  width: 18vw;
+  top: 13vw;
+  left: 79vw;
+}
+
+.pas3 {
+  width: 27vw;
+  top: 27vw;
+  left: 70vw;
+}
+
+/* экран2  */
+
+.second {
+  width: 100vw;
+  display: flex;
+}
+
+.flag {
+  background-color: #ff50c7;
+  height: 16.6vw;
+  width: 60.6vw;
+  overflow: hidden;
+}
+
+.tort {
+  background-color: #001aff;
+  height: 29.4vw;
+  width: 60.6vw;
+}
+
+.text {
+  height: 46vw;
+  width: 39.4vw;
+  background-image: url(../images/text1.svg);
+  background-size: cover;
+}
+
+.flag1 {
+  height: 8vw;
+  width: 120vw;
+}
+
+.flag2 {
+  height: 8vw;
+  width: 120vw;
 }
