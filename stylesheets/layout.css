@@ -8,6 +8,7 @@ body {
   background-color: #ffc9e4;
   height: 7vw;
   width: 100vw;
+  overflow: hidden;
 }
 .petwed {
   height: 5vw;
@@ -34,9 +35,22 @@ body {
 .first {
   display: flex;
 }
-.pasli {
+.pasli1 {
+  width: 11vw;
+  height: 44vw;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+.pasli2 {
+  width: 21vw;
+  height: 44vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.pas1 {
+  padding: 0 0 0 0;
 }
