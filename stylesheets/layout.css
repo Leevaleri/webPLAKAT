@@ -285,6 +285,10 @@ body {
   background-color: #fff;
 }
 
+.happy img {
+  height: 9vw;
+}
+
 .podv {
   background-image: url("../images/podv.svg");
   background-size: cover;

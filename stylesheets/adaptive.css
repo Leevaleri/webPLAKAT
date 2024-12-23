@@ -1,4 +1,4 @@
-/* @media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .happy {
     margin-top: -3vw;
   }
@@ -15,9 +15,7 @@
     top: 11vw;
     left: 78vw;
   }
-} */
-/* 
-попытки были, но ничем хорошим не закончились
+}
 
 @media screen and (max-width: 500px) {
   .first {
@@ -43,4 +41,4 @@
   width: 100vw;
 }
 
- */
+/*попытки были, но ничем хорошим не закончились  */
