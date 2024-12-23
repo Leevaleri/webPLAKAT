@@ -3,10 +3,10 @@
 }
 @keyframes stroke {
   0% {
-    transform: translateX(0%);
+    transform: translateX(5%);
   }
   100% {
-    transform: translateX(-59%);
+    transform: translateX(-25%);
   }
 }
 
@@ -228,4 +228,29 @@
   100% {
     transform: translateX(0%);
   }
+}
+
+.text span {
+  transition: all 0.4s ease;
+}
+.text span:hover {
+  transform: rotate3d(0, 1, 0, 70deg);
+  opacity: 0.2;
+  transition: all 0.1s ease;
+}
+/* .happily span:hover,
+.happily + p span:hover {
+  transform: scale(1.6);
+  opacity: 0;
+  transition: all 0.6s ease;
+} */
+
+.left span {
+  transition: all 0.4s ease;
+}
+
+.left span:hover {
+  transform: scale(1.6);
+  opacity: 0.2;
+  transition: all 0.4s ease;
 }

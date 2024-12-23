@@ -2,7 +2,8 @@
   box-sizing: border-box;
 }
 body {
-  width: 100vw;
+  width: 100%;
+  background-color: #ffffff;
 }
 
 /* экран1 */
@@ -23,7 +24,7 @@ body {
   background-color: #001aff;
   padding: 2vw 0 4vw 4vw;
   width: 100vw;
-  position: relative;
+  /* position: relative; */
 }
 
 .kot1 {
@@ -32,31 +33,33 @@ body {
   background-image: url(../images/pere.svg);
   background-size: 512vw 46vw;
   background-repeat: no-repeat;
+  margin-top: 0;
 }
 .first img {
   position: absolute;
 }
 .pas1 {
-  width: 27vw;
+  width: 35vw;
   top: 0vw;
-  left: 57vw;
+  left: 51vw;
 }
 .pas2 {
   width: 18vw;
-  top: 13vw;
+  top: 19vw;
   left: 79vw;
 }
 
 .pas3 {
   width: 27vw;
-  top: 27vw;
-  left: 70vw;
+  top: 33vw;
+  left: 68vw;
 }
 
 /* экран2  */
 
 .second {
   width: 100vw;
+  height: auto;
   display: flex;
   overflow: hidden;
 }
@@ -85,6 +88,11 @@ body {
   font-family: BalooBhai;
   color: #ff50c7;
   font-size: 6.5vw;
+  padding-left: 2.5vw;
+}
+.text p {
+  gap: 0;
+  display: flex;
 }
 
 .flag1 {
@@ -104,18 +112,16 @@ body {
 
 .And {
   padding-top: 8vw;
-  padding-left: 2.5vw;
 }
 
 .happily {
   padding-top: 11.5vw;
-  padding-left: 2.5vw;
 }
 
 /* экран 3 */
 
 .tri {
-  width: 100vw;
+  width: 100%;
   display: flex;
   overflow: hidden;
 }
@@ -149,16 +155,20 @@ body {
   font-family: BalooBhai;
   color: #ff50c7;
   font-size: 6.5vw;
+  padding-left: 29.5vw;
+}
+
+.left p {
+  gap: 0;
+  display: flex;
 }
 
 .lived {
   padding-top: 10vw;
-  padding-left: 29.5vw;
 }
 
 .wedding {
-  padding-top: 6vw;
-  padding-left: 29.5vw;
+  padding-top: 5.3vw;
 }
 
 .kotik {
@@ -180,7 +190,7 @@ body {
   background-image: url(../images/oblaka.svg);
   background-size: cover;
   height: 54vw;
-  width: 100vw;
+  width: 100%;
   overflow: hidden;
 }
 
@@ -270,7 +280,7 @@ body {
 
 .happy {
   margin-top: -2vw;
-  width: 100vw;
+  width: 100%;
   overflow: hidden;
   background-color: #fff;
 }
@@ -279,18 +289,18 @@ body {
   background-image: url("../images/podv.svg");
   background-size: cover;
   height: 14.8vw;
-  width: 100vw;
+  width: 100%;
   overflow: hidden;
 }
 
 .name {
-  font-family: BalooBhai;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #ff50c7;
-  font-size: 7vw;
+  font-size: 5vw;
   text-align: center;
 }
 .nename {
-  font-family: BalooBhai;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #ff50c7;
   font-size: 2vw;
   text-align: center;

@@ -1,0 +1,46 @@
+/* @media screen and (max-width: 1024px) {
+  .happy {
+    margin-top: -3vw;
+  }
+  .pred {
+    left: -1.5vw;
+  }
+  .lived {
+    padding-top: 9vw;
+  }
+  .pas3 {
+    top: 25vw;
+  }
+  .pas2 {
+    top: 11vw;
+    left: 78vw;
+  }
+} */
+/* 
+попытки были, но ничем хорошим не закончились
+
+@media screen and (max-width: 500px) {
+  .first {
+    height: 250vw;
+  }
+  .kot1 {
+    margin-top: 35vw;
+  }
+
+  .second {
+    flex-direction: column;
+    height: 100vw;
+  }
+  .flag {
+    width: 100vw;
+  }
+  .tort {
+    width: 100vw;
+  }
+}
+
+.text {
+  width: 100vw;
+}
+
+ */
