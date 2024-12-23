@@ -171,3 +171,122 @@ body {
   position: absolute;
   opacity: 0;
 }
+
+/* экран 4 */
+
+.oblaka {
+  background-image: url(../images/oblaka.svg);
+  background-size: cover;
+  height: 54vw;
+  width: 100vw;
+}
+
+.serd {
+  margin-left: 5vw;
+  width: 79vw;
+  height: 36vw;
+  position: absolute;
+}
+
+.cost {
+  margin-top: 3vw;
+  margin-left: 9vw;
+  width: 95vw;
+  height: 47vw;
+}
+
+/* экран 5 */
+
+.pred {
+  background-color: #001aff;
+  width: 100vw;
+  height: 66vw;
+  position: relative;
+  display: flex;
+}
+
+.predleft {
+  width: 57vw;
+  height: 63.8vw;
+}
+
+.loveand {
+  width: 57vw;
+  height: 19vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fon {
+  background-color: #fff;
+  width: 40vw;
+  height: 19vw;
+  overflow: hidden;
+}
+
+.nadp {
+  height: 19vw;
+  width: 171vw;
+}
+
+.paspas {
+  width: 57vw;
+  height: 44.8vw;
+}
+
+.kotik3 {
+  height: 63.8vw;
+  width: 36vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.kot3 {
+  width: 80vw;
+  height: 68vw;
+}
+.kot32 {
+  width: 52vw;
+  position: absolute;
+  opacity: 0;
+}
+
+.paspas {
+  width: 40vw;
+  height: 44.8vw;
+  position: relative;
+  background-image: url("../images/paspas.svg");
+  background-size: cover;
+  margin-left: 8.5vw;
+}
+
+/* конец */
+
+.happy {
+  margin-top: -2vw;
+  width: 100vw;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.podv {
+  background-image: url("../images/podv.svg");
+  background-size: cover;
+  height: 14.8vw;
+  width: 100vw;
+}
+
+.name {
+  font-family: BalooBhai;
+  color: #ff50c7;
+  font-size: 7vw;
+  text-align: center;
+}
+.nename {
+  font-family: BalooBhai;
+  color: #ff50c7;
+  font-size: 2vw;
+  text-align: center;
+}

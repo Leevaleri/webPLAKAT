@@ -146,3 +146,86 @@
 .kotik:hover {
   opacity: 0;
 }
+
+/* экран 4 */
+.serd {
+  animation: float 2s linear infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(2.5vw);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.cost {
+  animation: cost 5s linear infinite;
+}
+@keyframes cost {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(2.5vw);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* экран 5 */
+.kot32:hover {
+  opacity: 1;
+}
+
+.nadp {
+  animation: nadp 4s linear infinite;
+}
+@keyframes nadp {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-51%);
+  }
+}
+
+.paspas {
+  animation: smena 1s steps(1) infinite;
+}
+
+@keyframes smena {
+  0% {
+    content: url("../images/paspas1.svg");
+  }
+  25% {
+    content: url("../images/paspas3.svg");
+  }
+  50% {
+    content: url("../images/paspas2.svg");
+  }
+  100% {
+    content: url("../images/paspas4.svg");
+  }
+}
+
+/* конец */
+
+.happy img {
+  animation: happy 4s linear infinite;
+}
+
+@keyframes happy {
+  0% {
+    transform: translateX(-30%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
